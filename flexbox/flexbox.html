@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .flex-container{
+                display:flex;
+                /*flex-direction: column;*/
+                /*flex-direction: column-reverse;*/
+                /*flex-direction: row-reverse;*/
+                /*flex-wrap: rap;*/
+                /*flex-wrap: norap;*/
+                /*flex-wrap:wrap-reverse;*/
+                /*justify-content: center;*/
+                /*justify-content: flex-end;*/
+                /*justify-content: flex-start;*/
+                /*justify-content: space-around; *//*space around property display the flex item with space before, space after and space after the line*/
+                /*justify-content: space-between;*/ /*this property shows the space between two items*/
+                align-content: space-around;
+                background-color: rgb(131, 131, 237);
+            }
+            .flex-container>div{
+                width:100px;
+                background-color: aliceblue;
+                text-align: center;
+                margin:10px;
+                padding:20px;
+            }
+            .flex-container2{
+                display:flex;
+                background-color: rgb(131, 131, 237);
+                height:200px;
+                /*align-items: center;*/ /*it will put all the item horizontaly center*/
+                /*align-items: start;*/ /*it will put all the item in the start*/
+                /*align-items: flex-end;*/ /*it will put all the item in the start of bottom*/
+                /*align-items: stretch;*//*this property try to fill the container*/
+                /*align-content: space-between;*//*this property show the space between the items when we wrap up the content*/
+                /*align-content: space-around;*//*this property show the space around all the items*/
+                align-items: center;/*this both property justify content and align item center property put the item in exact center in the div*/
+                justify-content: center;
+            }
+            .flex-container2>div{
+                width:100px;
+                background-color: aliceblue;
+                text-align: center;
+                margin:10px;
+                padding:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>flexible box</h1>
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+        </div>
+        <p>rap or norap property is use to adjust the element the content and with norap it will shrink according to size and with rap it try to maintain there size </p>
+
+        <div class="flex-container2">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div><br>
+        <div class="flex-container2">
+            <div>1</div>
+        </div>
+    </body>
+</html>
