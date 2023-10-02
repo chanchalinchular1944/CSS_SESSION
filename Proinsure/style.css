@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+  justify-content: space-betwen;
+  align-items: center;
+  position: fixed;
+}
+.header {
+  max-width: 1200px;
+  padding: 0 32px;
+  margin: 0;
+}
+.proinsure {
+  font-size: 36px;
+  font-family: "DM Serif Display", serif;
+  color: #2d2640;
+}
+.link {
+  font-size: 20px;
+  margin-left: 32px;
+  color: #6e6b74;
+  text-transform: uppercase;
+  font-weight: 700;
+  justify-content: space-between;
+  justify-content: flex-end;
+  padding: 0 0 0 600px;
+}
+a .link {
+  color: #2d2640;
+  padding: 30px;
+}
+.btn {
+  padding: 12px 18px;
+  display: inline-block;
+  border: 1px solid#6e6b74;
+  border-radius: 3px;
+}
+.btn:hover {
+  color: white;
+  background-color: #2d2640;
+}
