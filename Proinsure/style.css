@@ -3,7 +3,7 @@ a {
 }
 .flex {
   display: flex;
-  justify-content: space-betwen;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
 }
@@ -17,27 +17,30 @@ a {
   font-family: "DM Serif Display", serif;
   color: #2d2640;
 }
-.link {
+a {
+  text-decoration: none;
   font-size: 20px;
-  margin-left: 32px;
-  color: #6e6b74;
   text-transform: uppercase;
+  margin-right: 50px;
   font-weight: 700;
-  justify-content: space-between;
-  justify-content: flex-end;
-  padding: 0 0 0 600px;
+  color: #6f6c75;
 }
-a .link {
-  color: #2d2640;
-  padding: 30px;
+.link {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-left: 350px;
 }
 .btn {
+  color: #6f6c75;
   padding: 12px 18px;
-  display: inline-block;
-  border: 1px solid#6e6b74;
+  border: 2px solid #6f6c75;
   border-radius: 3px;
 }
 .btn:hover {
   color: white;
   background-color: #2d2640;
+}
+a:hover:not(.btn) {
+  color: #2d2640;
 }
