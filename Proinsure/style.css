@@ -44,3 +44,45 @@ a {
 a:hover:not(.btn) {
   color: #2d2640;
 }
+.mid1 {
+  background-color: #2d2640;
+  padding: 60px 0;
+  color: white;
+  margin-top: 88px;
+}
+.container {
+  width: 1200px;
+  padding: 0 32px;
+  margin: auto;
+}
+.align_item {
+  align-items: flex-start;
+}
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+.hr {
+  width: 200px;
+  height: 2px;
+  background-color: #6f6c75;
+}
+.heading {
+  font-size: 56px;
+  margin-top: 16px;
+  line-height: 1.1;
+}
+.headingtext {
+  color: #bcb8c4;
+  margin: 32px 0;
+  font-size: 18px;
+}
+.btnsecond {
+  background-color: white;
+  color: #2d2640;
+  border: 1px solid white;
+  padding: 12px 18px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+}
