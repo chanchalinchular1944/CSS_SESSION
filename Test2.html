@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ed Discussion</title>
+    </head>
+    <style>
+        body{
+            background-color: rgb(27, 25, 37);
+        }
+        .div{
+            margin:100px 500px;
+            width:23%;
+            height:500px;
+            background-color: rgb(27, 25, 37);
+            text-align: center;
+        }
+        img{
+            width:90px;
+            height:90px;
+            border-radius: 2px;
+        }
+        .continue{
+            width:100%;
+            background-color: brown;
+            color:white;
+            text-align: center;
+            height:35px;
+            margin-top:15px;
+            padding-top:15px;
+        }
+        .continue2{
+            width:100%;
+            background-color:blue;
+            color:white;
+            text-align: center;
+            height:35px;
+            margin-top:15px;
+            padding-top:15px;
+            border-radius: 3px;
+            font-size: 20px;
+        }
+        .drop{
+            width:170px;
+            height:38px;
+            background-color: rgb(27, 25, 37);
+            color:white;
+            border-radius:10px;
+            border-color: white;
+            text-align:center;
+            margin-top:14px;
+        }
+        .email{
+            border-radius:5px;
+            width:98%;
+            height:35px;
+        }
+        .email:hover{
+            border:2px solid blue;
+        }
+        .mail{
+            margin-top: 15px;
+            align-items:start;
+        }
+        .password{
+            color:white;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        .password:hover{
+            text-decoration: underline;
+        }
+        .drop:hover{
+            background-color: white;
+            color:black;
+        }
+    </style>
+    <body>
+        <div class="div">
+            <div><img src="Ed2.png"></div>
+            <div class="continue">Log in to Continue</div>
+            <div>
+            <form>
+                <label for="country"></label>
+                <select id="country" name="country" class="drop">
+                    <option value="US">US</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Asia Pacific">Asia Pacific</option>
+                    <option value="United Kindom">United Kindom</option>
+                </select>
+            </form>
+            </div>
+            <div class="mail">
+            <form>
+                <label for="ename" style="color:white;"><b>Email</b></label><br>
+                <input type="text" id="ename" name="ename" class="email"><br>
+            </form>
+            </div>
+            <div class="continue2"><a href="#" style="color:white; text-decoration: none;">Continue</a></div>
+            <div style="margin-top: 20px;"><a href="#" class="password"><h4>forgot password?</h4></a></div>
+        </div>
+    </body>
+</html>
